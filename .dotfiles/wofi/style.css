@@ -1,0 +1,11 @@
+window {
+	background: rgba(161, 110, 53, 0.8);
+}
+
+#entry:selected {
+	background: rgba(161, 110, 53, 1)
+}
+
+#input { 
+	background: rgba(161, 110, 53, 0.9)
+}
