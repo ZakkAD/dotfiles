@@ -25,7 +25,7 @@ cp -r .dotfiles/wofi ~/.config/
 cp -r .dotfiles/waybar ~/.config/
 cp .dotfiles/.zshrc ~/.zshrc
 cp .dotfiles/.p10k.zsh ~/.p10k.zsh
-cp -r .dotfiles/zsh-theme-powerlevel10k /usr/share/
+sudo cp -r .dotfiles/zsh-theme-powerlevel10k /usr/share/
 
 echo "ENJOY YOUR RICE! :) I hope you like it"
 
