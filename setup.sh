@@ -17,12 +17,12 @@ echo "all files backed up to ~/.config/.backup"
 
 echo "applying new files"
 
-cp -r .dotfiles/hypr ~/.config/hypr
-cp -r .dotfiles/kitty ~/.config/kitty
-cp -r .dotfiles/nvim ~/.config/nvim
-cp -r .dotfiles/neofetch ~/.config/neofetch
-cp -r .dotfiles/wofi ~/.config/wofi
-cp -r .dotfiles/waybar ~/.config/waybar
+cp -r .dotfiles/hypr ~/.config/
+cp -r .dotfiles/kitty ~/.config/
+cp -r .dotfiles/nvim ~/.config/
+cp -r .dotfiles/neofetch ~/.config/
+cp -r .dotfiles/wofi ~/.config/
+cp -r .dotfiles/waybar ~/.config/
 cp .dotfiles/.zshrc ~/.zshrc
 cp .dotfiles/.p10k.zsh ~/.p10k.zsh
 
