@@ -12,7 +12,7 @@ cp -r ~/.config/wofi ~/.config/.backup/wofi
 cp -r ~/.config/waybar ~/.config/.backup/waybar
 cp ~/.zshrc ~/.config/.backup/.zshrc
 cp ~/.p10k.zsh ~/.config/.backup/.p10k.zsh
-
+cp -r /usr/share/zsh-theme-powerlevel10k ~/.config/.backup/zsh-theme-powerlevel10k
 echo "all files backed up to ~/.config/.backup"
 
 echo "applying new files"
@@ -25,6 +25,7 @@ cp -r .dotfiles/wofi ~/.config/
 cp -r .dotfiles/waybar ~/.config/
 cp .dotfiles/.zshrc ~/.zshrc
 cp .dotfiles/.p10k.zsh ~/.p10k.zsh
+cp -r .dotfiles/zsh-theme-powerlevel10k /usr/share/
 
 echo "ENJOY YOUR RICE! :) I hope you like it"
 
